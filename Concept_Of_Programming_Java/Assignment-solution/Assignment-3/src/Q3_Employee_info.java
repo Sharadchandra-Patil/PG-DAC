@@ -33,9 +33,12 @@ public class Q3_Employee_info {
 
     public static void main(String[] args) {
 
-        int n = 2;
+        int n = 1;
+        //NULL objects are created--i.e only object reference variables are creatrd with null value.
         Q3_Employee_info emp[] = new Q3_Employee_info[n];
+       
         for (int i = 0; i < n; i++) {
+            //Actual object is created in heap area and address is assigned to reference variable
             emp[i] = new Q3_Employee_info();
             System.out.println("Enter employee information of emp[" + i + "] :: ");
             emp[i].accept_Employee_info();
