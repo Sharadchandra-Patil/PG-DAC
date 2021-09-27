@@ -1,0 +1,52 @@
+package sunbeam;
+
+import java.util.Scanner;
+
+class Employee
+{
+	private int id; // data member 
+	private int salary; // data member 
+	Scanner sc=new Scanner(System.in);
+	public int getId()  // getter  / inspectors 
+	{
+		return id;
+	}
+	public void setId(int id)  //setter / mutators 
+	{
+		this.id = id;
+	}
+	public int getSalary() 
+	{
+		return salary;
+	}
+	public void setSalary(int salary)
+	{
+		this.salary = salary;
+	}
+	
+	void accept() // facilitator 
+	{
+		System.out.println("Enter ID ");
+		this.id=sc.nextInt();
+		System.out.println("Enter Salary ");
+		this.salary=sc.nextInt();
+	}
+	
+	void disp()  // facilitator 
+	{ 
+		System.out.println(" ID "+this.id+" Salary : "+this.salary);
+	}
+	
+}
+
+public class Day5_1 
+{
+
+	public static void main(String[] args) 
+	{
+		Employee e1=new Employee();
+		System.out.println(e1);
+
+	}
+
+}

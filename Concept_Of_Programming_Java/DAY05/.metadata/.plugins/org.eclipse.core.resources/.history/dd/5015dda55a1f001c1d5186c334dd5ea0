@@ -1,0 +1,30 @@
+package sunbeam;
+
+class Employee
+{
+	private int id;
+	private String name;
+	private int salary;
+	Employee() // parameterless constructor 
+	{
+		
+	}
+	Employee(int id, String name, int salary) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+	
+	
+	
+}
+
+public class Day5_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

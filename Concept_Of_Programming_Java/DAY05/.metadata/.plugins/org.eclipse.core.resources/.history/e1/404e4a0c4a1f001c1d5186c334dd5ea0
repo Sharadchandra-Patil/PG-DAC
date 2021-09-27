@@ -1,0 +1,34 @@
+package sunbeam;
+
+import java.util.Scanner;
+
+class Student
+{
+	private int id;
+	private int rollno;
+	private int marks;
+	private String name;
+	private float per;
+	
+	Scanner sc=new Scanner(System.in);
+	
+	void disp()
+	{
+		System.out.println("Student Data :");
+		System.out.println("Name : "+this.name+" ID : "+this.id+" Rollno :"+this.rollno);
+		System.out.println("Marks: "+this.marks+" Percentage :"+this.per);
+	}
+
+}
+
+public class Day5_2 
+{
+
+	public static void main(String[] args)
+	{
+		Student st=new Student();
+		st.disp(); // explicit 
+
+	}
+
+}

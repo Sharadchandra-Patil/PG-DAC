@@ -1,0 +1,20 @@
+package sunbeam;
+
+class Employee
+{
+	private int id;
+	private int salary;
+	
+	
+}
+
+public class Day5_1 
+{
+
+	public static void main(String[] args) 
+	{
+		System.out.println("day5");
+
+	}
+
+}

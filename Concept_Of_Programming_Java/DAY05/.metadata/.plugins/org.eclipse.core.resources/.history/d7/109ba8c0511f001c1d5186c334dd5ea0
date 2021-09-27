@@ -1,0 +1,91 @@
+package sunbeam;
+
+import java.util.Scanner;
+
+class Student
+{
+	private int id;
+	private int rollno;
+	private int marks;
+	private String name;
+	private float per;
+	
+	Scanner sc=new Scanner(System.in);
+	
+	Student() // PARAMETERLESS CONSTRUCTOR (USER DEFINED DEFAULT CONSTRUCTOR)
+	{
+		System.out.println("Inside Parameterless Constructor");
+		this.id=1;
+		this.rollno=1;
+		this.marks=1;
+		this.name="DEFAULT";
+		this.per=1.1f;
+		
+	}
+	
+		
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getRollno() {
+		return rollno;
+	}
+	public void setRollno(int rollno) {
+		this.rollno = rollno;
+	}
+	public int getMarks() {
+		return marks;
+	}
+	public void setMarks(int marks) {
+		this.marks = marks;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public float getPer() {
+		return per;
+	}
+	public void setPer(float per) {
+		this.per = per;
+	}
+	void accept() //void accept(this) //current object address
+	{
+		System.out.println("Enter ID :");
+		this.id=sc.nextInt();
+		System.out.println("Enter Roll no :");
+		this.rollno=sc.nextInt();
+		System.out.println("Enter Marks:");
+		this.marks=sc.nextInt();
+		System.out.println("Enter Name:");
+		this.name=sc.next();
+		System.out.println("Enter Percentage:");
+		this.per=sc.nextFloat();
+	}
+	
+	void disp()
+	{
+		System.out.println("Student Data :");
+		System.out.println("Name : "+this.name+" ID : "+this.id+" Rollno :"+this.rollno);
+		System.out.println("Marks: "+this.marks+" Percentage :"+this.per);
+	}
+	
+
+}
+
+public class Day5_3 {
+
+	public static void main(String[] args) 
+	{
+		Student st1=new Student();
+		st1.disp();
+		st1.accept();
+
+	}
+
+}
