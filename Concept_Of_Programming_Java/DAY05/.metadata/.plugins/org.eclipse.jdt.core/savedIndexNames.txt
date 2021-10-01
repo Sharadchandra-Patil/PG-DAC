@@ -1,2 +1,0 @@
-INDEX VERSION 1.131+D:\Sunbeam\Sept2021\Concepts_of_Programming\DAY05\.metadata\.plugins\org.eclipse.jdt.core
-2408339029.index

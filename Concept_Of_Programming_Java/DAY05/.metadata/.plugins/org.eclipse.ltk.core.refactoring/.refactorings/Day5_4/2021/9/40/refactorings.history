@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;sunbeam.Day5_3&apos; to &apos;Day5_4&apos;&#x0D;&#x0A;- Original project: &apos;Day5_4&apos;&#x0D;&#x0A;- Original element: &apos;sunbeam.Day5_3&apos;&#x0D;&#x0A;- Renamed element: &apos;sunbeam.Day5_4&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Day5_3&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;sunbeam{Day5_3.java[Day5_3" matchStrategy="1" name="Day5_4" qualified="false" references="true" similarDeclarations="false" stamp="1632720458054" textual="false" version="1.0"/>
-</session>
